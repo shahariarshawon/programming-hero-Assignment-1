@@ -19,16 +19,18 @@ nav button{
     color: #006A50;
     border-radius: 4.8px;
     border: 1.5px solid #006A50;
-    padding: 5px 15px;
+    padding: 7.5px 15px;
+    font-weight: 600;
 }
 /* common class for flex property */
 .common{
     display: flex;
     justify-content: space-between;
-    margin-right:160px ;
+    margin-right:160px;
     margin-left: 160px;
     margin-bottom: 20px;
     align-items: center;
+    gap: 24px;
 }
 /* 1st sec bangladesh 2.0 */
 #sec1div1p1 {
@@ -70,4 +72,25 @@ nav button{
     background-color: #C6E4D6;
     padding: 80px 100px;
     border-radius: 18px;
+}
+#sec2-div{
+    background-color: #fff;
+    padding: 24px;
+    padding-bottom: 0;
+    border-radius: 16px;
+}
+#sec2-div h4{
+    font-size: 20px;
+}
+#sec2-div p{
+    font-size: 16px;
+}
+#sec2>div div{
+    width:302px;
+    height: 244px;
+}
+#sec2>p{
+    font-weight: bold;
+    font-size: 40px;
+    margin:80px 160px 32px ;
 }
