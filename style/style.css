@@ -83,11 +83,13 @@ nav button{
 #sec2-div h4{
     font-size: 20px;
     margin-bottom: 0;
+    font-weight: bold;
 }
 /* description */
 #sec2-div p{
     font-size: 16px;
     color:rgba(14, 14, 14, 0.7);
+   
 }
 /* fixing the size of box for same size */
 #sec2>div div{
@@ -157,13 +159,12 @@ nav button{
     background-color: #FFC239;
     border: 1px solid white;
 }
-                                /* section 4 */
 #sec3div3{
     margin: 32px 160px 0px;
     background-color: #fff;
     padding: 20px 20px;
     border-radius: 15px;
-    background-image: url(../style/assets/quote-bg.png);
+    background-image: url(../style/assets/quote-bg.png) ;
     background-repeat: no-repeat;
     padding: 50px 20px 15px;
     background-position: 20px 23px;
@@ -174,11 +175,60 @@ nav button{
 #sec3div3 h4{
     font-size: 20px;
     margin-bottom: 0;
+    font-weight: 600;
 }
 #sec3div3 p{
     font-size: 16px;
     color:rgba(14, 14, 14, 0.6) ;
 }
+
+                                /* section 4 */
 #sec4{
     margin: 80px 160px 0px;
+    
+}
+#sec4 div{
+    padding: 32px;
+    background-color: #fff;
+    border-radius: 16px;
+}
+#sec4 table{
+    border: 1px solid rgba(14, 14, 14, 0.3);
+    border-collapse: collapse;
+    width:100%;
+    font-weight: 600;
+
+
+}
+#sec4div1>div{
+    background-color: rgb(198, 228, 214);
+    display: flex;
+    justify-content: space-between;
+    height:  50px;
+    padding: 10px 24px;
+    border-radius: 0;
+    font-size: 20px;
+    font-weight: 600;
+    align-items: center;
+}
+#sec4 td{
+    border: 1px solid rgba(14, 14, 14, 0.3);
+    padding: 24px;
+    
+}
+#sec4 h3{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+#sec4 select, option{
+    padding: 10px 14px;
+    background-color:rgb(198, 228, 214) ;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+}
+#check{
+    text-align: center;
+    width: 155px;
 }
