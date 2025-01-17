@@ -6,6 +6,17 @@
 html{
     background-color: #F5F5F5;
 }
+/* common class for flex property */
+.common{
+    display: flex;
+    justify-content: space-between;
+    margin-right:160px;
+    margin-left: 160px;
+    margin-bottom: 20px;
+    align-items: center;
+    gap: 24px;
+}
+                                    /* section 1 */
 /*bangladesh 2.0 of navigation bar*/
 nav h3{ 
     font-family: fira sans;
@@ -22,23 +33,10 @@ nav button{
     padding: 7.5px 15px;
     font-weight: 600;
 }
-/* common class for flex property */
-.common{
-    display: flex;
-    justify-content: space-between;
-    margin-right:160px;
-    margin-left: 160px;
-    margin-bottom: 20px;
-    align-items: center;
-    gap: 24px;
-}
 /* 1st sec bangladesh 2.0 */
 #sec1div1p1 {
     font-size: 20px;
-    color: #0e0e0e6c;
-    width: 140px;
-    height: auto;
-    margin-top: 0px;
+    color:rgba(14, 14, 14, 0.5);
     font-weight: 500;
 }
 /* idea innovation.... */
@@ -73,24 +71,114 @@ nav button{
     padding: 80px 100px;
     border-radius: 18px;
 }
+                                  /* section 2 */
+/* box color padding */
 #sec2-div{
     background-color: #fff;
     padding: 24px;
     padding-bottom: 0;
     border-radius: 16px;
 }
+/* innovation sustainability infrastructure empowerment*/
 #sec2-div h4{
     font-size: 20px;
+    margin-bottom: 0;
 }
+/* description */
 #sec2-div p{
     font-size: 16px;
+    color:rgba(14, 14, 14, 0.7);
 }
+/* fixing the size of box for same size */
 #sec2>div div{
     width:302px;
-    height: 244px;
+    height: auto;
 }
+/* pillars of.... */
 #sec2>p{
     font-weight: bold;
     font-size: 40px;
     margin:80px 160px 32px ;
+    text-align:left;
+}
+                                    /* section 3 */
+/* margin for h3 and p */
+#sec3div1{
+    margin:80px 160px 32px;
+}
+/* section 3 flex box  */
+#sec3div2 div{
+    width:410px;
+    /* height: 325px; */
+    border-radius: 15px;
+    padding: 32px;
+}
+/* sec3 heading */
+#sec3 h3{
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+/* flex box heading */
+#sec3div2 h4{
+    font-size: 20px;
+    margin-bottom: 0;
+}
+/* sec 3 flex box description */
+#sec3 p{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+/* sec3 flex box button */
+#sec3div2 button{
+    font-size: 16px;
+    border-radius: 8px;
+    padding: 11px 20px;
+    font-weight: 600;
+    color: #fff;
+}
+#sec3div2div1{
+    background-color: rgb(213, 225, 245);
+}
+#sec3div2div1>button{
+    background-color: #5490F5;
+    border: 0.5px solid white;
+}
+#sec3div2div2{
+    background-color: rgb(198, 228, 214);
+}
+#sec3div2div2>button{
+    background-color: #09A15C;
+    border: 1px solid white;
+}
+#sec3div2div3{
+    background-color:rgb(247, 235, 207);
+}
+#sec3div2div3>button{
+    background-color: #FFC239;
+    border: 1px solid white;
+}
+                                /* section 4 */
+#sec3div3{
+    margin: 32px 160px 0px;
+    background-color: #fff;
+    padding: 20px 20px;
+    border-radius: 15px;
+    background-image: url(../style/assets/quote-bg.png);
+    background-repeat: no-repeat;
+    padding: 50px 20px 15px;
+    background-position: 20px 23px;
+}
+#sec3div3 q{
+    font-size: 16px;
+}
+#sec3div3 h4{
+    font-size: 20px;
+    margin-bottom: 0;
+}
+#sec3div3 p{
+    font-size: 16px;
+    color:rgba(14, 14, 14, 0.6) ;
+}
+#sec4{
+    margin: 80px 160px 0px;
 }
