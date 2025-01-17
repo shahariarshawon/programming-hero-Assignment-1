@@ -1,0 +1,73 @@
+/* declared font style for the whole page */
+*{
+    font-family: fira sans;
+}
+/* delcared a bg color for whole html */
+html{
+    background-color: #F5F5F5;
+}
+/*bangladesh 2.0 of navigation bar*/
+nav h3{ 
+    font-family: fira sans;
+    font-weight: bold;
+    font-size: 35px;
+}
+/* sign in button */
+nav button{
+    font-family: fira sans;
+    font-size: 18px;
+    color: #006A50;
+    border-radius: 4.8px;
+    border: 1.5px solid #006A50;
+    padding: 5px 15px;
+}
+/* common class for flex property */
+.common{
+    display: flex;
+    justify-content: space-between;
+    margin-right:160px ;
+    margin-left: 160px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+/* 1st sec bangladesh 2.0 */
+#sec1div1p1 {
+    font-size: 20px;
+    color: #0e0e0e6c;
+    width: 140px;
+    height: auto;
+    margin-top: 0px;
+    font-weight: 500;
+}
+/* idea innovation.... */
+#sec1div1p2{
+    color: #0E0E0E;
+    font-size: 55px;
+    font-weight:700;
+    width: 580px;
+    height: auto;
+    margin-top: 0px;
+    padding: 0px;
+}
+/* explore ne.. button */
+#sec1div1 button{
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    background-color:#006A50 ;
+    padding:17px 34px ;
+    border-radius: 8px;
+    border: 0.5px solid white; 
+    margin-top:  0px;
+}
+/* sec1 image */
+#sec1div2 img{
+    width: 480px;
+    height: 400px;
+}
+/* whole section 1  */
+#sec1{
+    background-color: #C6E4D6;
+    padding: 80px 100px;
+    border-radius: 18px;
+}
