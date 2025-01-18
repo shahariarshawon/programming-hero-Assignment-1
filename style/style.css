@@ -286,6 +286,7 @@ nav button{
 #sec6>h3{
     font-size: 40px;
     text-align: center;
+    margin-bottom: 25px;
 }
 #sec6>p{
     color: rgba(14, 14, 14, 0.7);
@@ -332,10 +333,74 @@ nav button{
     color: #fff;
     font-weight: 600;
 }
-/* footer{
+#sec7div1{
     margin: 80px 160px 80px;
     background-color: rgb(198, 228, 214);
-    display: flex;
+    padding: 80px 100px;
+    border-radius: 24px;
     justify-content: center;
     align-items: center;
-} */
+}
+#sec7div1>h3{
+    font-size: 40px; 
+    font-weight: bold;
+    text-align: center;
+     margin-bottom: 0px;
+     margin-top: 0px;
+}
+#sec7div1>p{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    text-align: center;
+    padding-top: 0px;
+     margin-left: 380px;
+     margin-right: 380px;
+}
+#sec7div2{
+    display: flex;
+    justify-content: center;
+}
+#sec7div2>input{
+    width: 600px;
+    height: 55px;
+    padding: 0px 40px;
+    font-size: 16px;
+    border: none;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+#sec7div2>button{
+    width: 150px;
+    height: auto;
+    padding: 0px 34px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    background-color: #006A50;
+    color: #fff;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+footer>div{
+    background-color: #fff;
+
+}
+footer h3{
+    text-align: center;
+    font-weight: bold;
+    font-size: 32px;
+}
+#footerdiv1>div{
+    margin-left: 239px;
+    margin-right: 239px;
+}
+#footerdiv{
+    padding: 50px 160px;
+}
+#footerdiv2{
+    padding-top: 32px;
+    display: flex;
+    gap:23px;
+    align-items: center;
+    justify-content: center;
+}
