@@ -57,15 +57,22 @@ nav button{
     background-color:#006A50 ;
     padding:17px 34px ;
     border-radius: 8px;
-    border: 0.5px solid white; 
+    border: none;
     margin-top:  0px;
 }
-/* sec1 image */
+#sec1div1 button:hover{
+    background-color: #5d6d7e;
+    font-size: larger;
+    transition: ease-in .3s;
+     box-shadow: 0px 2px 8px rgb(90, 89, 89);
+
+}
+/* national martyrs */
 #sec1div2 img{
     width: 480px;
     height: 400px;
 }
-/* whole section 1  */
+/* banner  */
 #sec1{
     background-color: #C6E4D6;
     padding: 80px 100px;
@@ -79,6 +86,16 @@ nav button{
     padding-bottom: 0;
     border-radius: 16px;
 }
+#sec2-div:hover {
+    
+        background-color: lightgoldenrodyellow  ;
+        /* font-size: 55px; */
+        transition: ease-in-out 0.38s;
+        color:#00008B;
+        box-shadow: 0px 2px 8px rgb(90, 89, 89);
+    
+}
+
 /* innovation sustainability infrastructure empowerment*/
 #sec2-div h4{
     font-size: 20px;
@@ -130,7 +147,7 @@ nav button{
     font-size: 16px;
     color: rgba(14, 14, 14, 0.7);
 }
-/* sec3 flex box button */
+/* sec3 flex box button learn more*/
 #sec3div2 button{
     font-size: 16px;
     border-radius: 8px;
@@ -138,26 +155,54 @@ nav button{
     font-weight: 600;
     color: #fff;
 }
+#sec3div2 button:hover{
+    background-color: #5d6d7e;
+    font-size: larger;
+    box-shadow: 0px 2px 8px rgb(90, 89, 89);
+    transition: ease 0.3s;
+    color: #fff;
+}
 #sec3div2div1{
     background-color: rgb(213, 225, 245);
 }
+#sec3div2div1:hover{
+    background-color: lightgoldenrodyellow  ;
+    /* font-size: 55px; */
+    transition: ease-in-out 0.38s;
+    color:#00008B;
+    box-shadow: 0px 2px 8px rgb(90, 89, 89);
+}
 #sec3div2div1>button{
     background-color: #5490F5;
-    border: 0.5px solid white;
+    border: none;
 }
 #sec3div2div2{
     background-color: rgb(198, 228, 214);
 }
+#sec3div2div2:hover{
+    background-color: lightgoldenrodyellow  ;
+    /* font-size: 55px; */
+    transition: ease-in-out 0.38s;
+    color:#00008B;
+    box-shadow: 0px 2px 8px rgb(90, 89, 89);
+}
 #sec3div2div2>button{
     background-color: #09A15C;
-    border: 1px solid white;
+    border: none;
 }
 #sec3div2div3{
     background-color:rgb(247, 235, 207);
 }
+#sec3div2div3:hover{
+    background-color: lightgoldenrodyellow  ;
+    /* font-size: xx-large; */
+    transition: ease-in-out 0.38s;
+    color:#00008B;
+    box-shadow: 0px 2px 8px rgb(90, 89, 89);
+}
 #sec3div2div3>button{
     background-color: #FFC239;
-    border: 1px solid white;
+    border: none;
 }
 #sec3div3{
     margin: 32px 160px 0px;
@@ -269,8 +314,14 @@ nav button{
     font-weight: 600;
     color: #fff;
     border-radius: 8px;
-    border: 1px solid white;
+    border: none;
     background-color: #006A50;
+}
+#satelite-description>button:hover{
+    background-color: #5d6d7e;
+    font-size: larger;
+    transition: ease-in .2s;
+     box-shadow: 0px 2px 8px rgb(90, 89, 89);
 }
 #sec5>p{
     color: rgba(14, 14, 14, 0.7);
@@ -286,7 +337,6 @@ nav button{
 #sec6>h3{
     font-size: 40px;
     text-align: center;
-    margin-bottom: 25px;
 }
 #sec6>p{
     color: rgba(14, 14, 14, 0.7);
@@ -323,15 +373,22 @@ nav button{
     border: none;
     padding: 15px 30px;
 }
+/* done now button */
 #sec6div2>button{
     width: 151px;
     height: 56px;
     background-color: #006A50;
-    border: 1px solid white;
+    border: none;
     border-radius: 8px;
     font-size: 18px;
     color: #fff;
     font-weight: 600;
+}
+#sec6div2>button:hover{
+    background-color: #5d6d7e;
+    font-size: larger;
+    transition: ease-in-out .2s;
+     box-shadow: 0px 2px 8px rgb(90, 89, 89);
 }
 #sec7div1{
     margin: 80px 160px 80px;
@@ -369,6 +426,7 @@ nav button{
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
 }
+/* subscribe now button */
 #sec7div2>button{
     width: 150px;
     height: auto;
@@ -380,6 +438,12 @@ nav button{
     color: #fff;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
+}
+#sec7div2>button:hover{
+    background-color: #5d6d7e;
+    font-size: larger;
+    transition: ease-in .2s;
+     box-shadow: 0px 2px 8px rgb(90, 89, 89);
 }
 footer>div{
     background-color: #fff;
@@ -403,4 +467,34 @@ footer h3{
     gap:23px;
     align-items: center;
     justify-content: center;
+}
+.buttonn:hover{
+    background-color: #5d6d7e;
+    font-size: larger;
+    box-shadow: 0px 2px 8px rgb(90, 89, 89);
+    transition: 0.3s;
+    color: #fff;
+}
+
+#sec6div1>#card2{
+    background-color:rgb(198, 228, 214) ;
+}
+#sec6div1>#card2:hover{
+    background-color: lightgoldenrodyellow;
+    font-size: 43.5px;
+    transition: ease 0.38s;
+    /* color: white; */
+    box-shadow: 0px 2px 8px rgb(90, 89, 89);
+}
+
+#sec6div1> .card:hover{
+    background-color:lightgoldenrodyellow  ;
+    font-size: 43.5px;
+    transition: ease-in-out 0.38s;
+    /* color: darkgrey ; */
+    box-shadow: 0px 2px 8px rgb(90, 89, 89);
+}
+#footerdiv2 >img:hover{
+    width: 32px;
+    height: 32px;
 }
